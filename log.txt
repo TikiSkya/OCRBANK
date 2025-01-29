@@ -1,0 +1,119 @@
+[2025-01-20 00:35:37] Archivo: C:\xampp\htdocs/files\itau-app-screen-1.jpeg{"bank":"Ita\u00fa","transactionId":"5543271","amount":{"symbol":"UYU","amount":"12.540,00"},"origen":false,"myAccount":"9605074","error":true}
+22:17 en — 17
+
+< Buscar
+
+comprobante
+
+7
+
+transferencia realizada con éxito.
+
+importe transferido
+$12.540,00
+
+para
+Banco Itaú de Uruguay
+cuenta 9605074
+
+importe debitado
+
+$ 12.540,00
+
+de
+
+Itaú
+
+cuenta 4526747
+comisión
+
+$ 0,00
+
+referencia
+
+destino de fondos
+
+Otros
+
+número de transacción
+
+5543271
+[2025-01-20 00:35:47] Archivo: C:\xampp\htdocs/files\santander-8.pdf{"bank":"santander","transactionId":"356636","amount":{"symbol":"UYU","amount":"458,72"},"origen":false,"myAccount":false,"error":true}
+& Santander
+
+A terceros en el Banco
+
+o Tu transacción ha sido realizada
+9/10/2024 — 15:52:35
+
+Nro. de Referencia: 356636
+Fecha de finalización: 09/10/2024
+
+Usuario Originador: Ada, Telematica Sociedadr Esponsabilidad Limit
+
+Monto acreditado: UYU 458,72
+
+Cuenta Origen Cuenta Destino
+
+Cuenta corriente
+
+Cta. Pyme Básica NETUY
+000004665031 278963 — UYU
+81 — Pablo De Maria Centro De Atencion A Empresas Roosevelt
+
+Datos adicionales
+Concepto origen Concepto Destino Fecha valor
+
+pago telematica netuy pago telematica netuy oct. 9, 2024
+
+Tipo de operación
+
+Otros
+[2025-01-20 00:35:50] Archivo: C:\xampp\htdocs/files\itau-1-1.pdf{"bank":"Ita\u00fa","transactionId":"12493519","amount":{"symbol":"USD","amount":"26,24"},"origen":"1787843","myAccount":false,"error":true}
+Gonzalo Eyherabide — RUT 216554260017
+Descargado: jueves 10 de octubre de 2024 — 11:37:06 hs.
+
+Transferencias en Banco Itaú — Detalle de Lista 12493519
+
+ld Lista 12493519
+
+Cta. de Origen CC en Dolares 1787843 Fecha de creación 10—10—2024
+Nombre de empresa _ LARSEN, LAUDRUP & LERBY SRL. Monto total U$S 26,24
+Cantidad Items 1 Estado En proceso
+Observaciones
+
+Nro. Nombre Cuenta Importe Destino de Referencia Estado
+ltem Transferencia
+
+[ 1 —| netuy sri_| __ 1242464 u$S 26,24 Pago a Proveedores _ | netuy or.133549 | _ ACTIVO
+
+Page 1 of 1
+[2025-01-20 00:35:53] Archivo: C:\xampp\htdocs/files\santander-9.pdf{"bank":"santander","transactionId":"400131","amount":{"symbol":"USD","amount":"267,61"},"origen":false,"myAccount":false,"error":true}
+& Santander
+
+A terceros en el Banco
+
+o Tu transacción ha sido realizada
+10/10/2024 — 18:14:20
+Nro. de Referencia: 400131
+Fecha de finalización: 10/10/2024
+
+Usuario Originador: Rodriguez Perez Alejandro Jorge
+
+Monto acreditado: USD 267,61
+
+Cuenta Origen Cuenta Destino
+
+Cuenta corriente
+
+Cta. Total Profesional NETUY
+000008534001 005100249296 — USD
+05 — Ombu Centro De Atencion A Empresas Roosevelt
+
+Datos adicionales
+Concepto Destino Fecha valor
+Orden No 134315 oct. 10, 2024
+
+Tipo de operación
+
+Otros

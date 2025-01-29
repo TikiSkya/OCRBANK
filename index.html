@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCRBANK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="margin-right: 3rem;">Sube tu comprobante de pago en OCRBANK</h1>
+    <div class="container">
+        <header>
+            <h1 >Ingrese su comprobante de pago</h1>
+        </header>
+        
+        <form id="upload-form" action="Controller.php" method="POST" enctype="multipart/form-data">
+            <div class="upload-box">
+                <input type="file" id="file-input" name="file" accept=".png, .jpg, .jpeg, .pdf" hidden>
+                <div class="upload-area" id="upload-area">
+                    <i class="icon-upload"></i>
+                    <p>Arrastra tu archivo aquí o haz clic para seleccionar uno</p>
+                    <button type="button" id="select-button">Seleccionar Archivo</button>
+                    <small>Tamaño máximo: 64MB</small>
+                </div>
+            </div>
+            <div class="file-info" id="file-info" hidden>
+                <p id="file-name"></p>
+                <button type="submit" id="upload-button">Enviar Archivo</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        const uploadArea = document.getElementById('upload-area');
+        const fileInput = document.getElementById('file-input');
+        const selectButton = document.getElementById('select-button');
+        const fileInfo = document.getElementById('file-info');
+        const fileName = document.getElementById('file-name');
+
+        // Mostrar detalles del archivo cuando se selecciona un archivo
+        fileInput.addEventListener('change', () => {
+            const file = fileInput.files[0];
+            if (file && isValidFileType(file)) {
+                showFileDetails(file);
+            } else {
+                alert("Tipo de archivo no permitido. Solo se aceptan PNG, JPG, y PDF.");
+                fileInput.value = ""; // Reset input si el tipo es incorrecto
+                fileInfo.hidden = true;
+            }
+        });
+
+        // Abrir el diálogo de selección de archivos al hacer clic en el área de subida o el botón
+        selectButton.addEventListener('click', () => fileInput.click());
+        uploadArea.addEventListener('click', () => fileInput.click());
+
+        // Validar y mostrar detalles del archivo
+        function showFileDetails(file) {
+            fileName.textContent = `Archivo seleccionado: ${file.name}`;
+            fileInfo.hidden = false;
+        }
+
+        // Verificar si el tipo de archivo es válido
+        function isValidFileType(file) {
+            const allowedTypes = ['image/png', 'image/jpeg', 'application/pdf'];
+            return allowedTypes.includes(file.type);
+        }
+    </script>
+</body>
+</html>
