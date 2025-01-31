@@ -32,7 +32,7 @@ class Rendimiento {
     public function testTimeProcess($amount) {
         $this->startTime();
 
-        $directory = __DIR__."/files"; // Especifica la ruta de la carpeta
+        $directory = __DIR__."/test_comprobantes";// Especifica la ruta de la carpeta
         $ocr = new OCR();
 
         if (is_dir($directory)) {
@@ -44,13 +44,14 @@ class Rendimiento {
                 if ($count >= $amount) {
                     break;
                 }
-                $count += 1;
+
                 if ($file !== "." && $file !== "..") { // Ignora . y ..
                     $filePath = $directory . DIRECTORY_SEPARATOR . $file;
                     
                     if (is_file($filePath)) {
                         $info = $ocr->extract($filePath);
                     } 
+                    $count += 1;
                 }
 
             }

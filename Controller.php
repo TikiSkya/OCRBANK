@@ -1,16 +1,28 @@
 <?php
+/*
+ * Controlador que gestiona el procesamiento de archivos ingresados via web
+ * 
+ * 
+ * @author Gaston Rivero <tikirivero@gmail.com>
+ * @version 1.0.0
+ * 
+ */
+
+// Dependencias
 include_once(__DIR__."\Rendimiento.php");
 require_once(__DIR__."\OCR.php");
 
-
+// Dependencias
 $uploadDir = __DIR__ . '/uploads/';
 if (!file_exists($uploadDir)) {
     mkdir($uploadDir, 0777, true);
 }
 
+// Empiezo a calcular procesamiento ocr
 $rendimiento = new Rendimiento();
 $rendimiento->startTime();
 
+// Verifico tipo de archivo para saber si es imagen o pdf
 if ($_FILES['file']["type"]) {
 
   // Mueve el archivo PDF a la carpeta de subida
@@ -32,9 +44,11 @@ if ($_FILES['file']["type"]) {
 
 }
 
-
+// Extraccion de texto
 $ocr = new OCR();
 $info = $ocr->extract($ubicacionImagen);
+
+// Limpio los datos extraidos para visualizarlos en la web
 $data  = [
   "Banco" => $info["datos"]["bank"],
   "IDTransacción" => $info["datos"]["transactionId"],
@@ -47,14 +61,15 @@ $data  = [
 if (isset($info["error"])) {
   $data["Error"] = $info["error"];
 }
+
 $rendimiento->endTime();
 $time = $rendimiento->duration();
 $data["Procesado"] = $time;
-header("Location: OCRView.php?info=" . urlencode(http_build_query($data)));
+header("Location: views/OcrResponseView.php?info=" . urlencode(http_build_query($data)));
 
 
 
-
+// Funcion para transformar pdf en imagenes con imagick
 function pdfToImages($pdfFilePath) {
   // Directorio temporal para guardar las imágenes
   $outputDir = __DIR__ . '/temp_images/';

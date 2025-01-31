@@ -61,7 +61,7 @@ class OCR {
 
 
   function getValues($text) {
-    $origen = ["Cuenta de origen CA","de la Caja de Ahorro en pesos No.","de la Caja de Ahorro en dólares No.","Cuenta de origen CA UYU","de\nItaú\ncuenta","Origen CC en Dolares","Cuenta de origen CC USD"," de cuenta:"];
+    $origen = ["Cuenta de origen CA USD","de la Caja de Ahorro en pesos No.","de la Caja de Ahorro en dólares No.","Cuenta de origen CA UYU","de\nItaú\ncuenta","Origen CC en Dolares","Cuenta de origen CC USD"," de cuenta:"];
     $transaction = ["Número de la operación","Tu número de referencia es:","Cuenta corriente (USD]","Número de cuenta:","Número de transacción:","Nro. de Referencia:","ld Lista","Detalles de la transacción","Referencia:","número de transacción","número de transacción"];
     $pay = ["Importe a acrecitar","Monto","Total en ","Monto acreditado:","Debitamos","Monto total","Importe giro:","Moneda y monto",'Importe a USD","importe transferido uU$S',"importe a acreditar","importe transferido","importe transferido"];
     $bank = ["Banco","Banco"];
@@ -84,7 +84,7 @@ class OCR {
 
     foreach ($values as $key => $value) {
       if ($value === false) {
-        if ($key != "transactionId" ) {
+        if ($key != "transactionId" && $key != "origen") {
           $values["error"] = true;
           break;
         }
