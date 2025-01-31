@@ -11,10 +11,11 @@
 ## Información
 
 Este repositorio contiene prototipo OCR para automatización del Proceso de Validación de Pagos Bancarios en Uruguay Mediante Tecnología de Reconocimiento Óptico de Caracteres (OCR).
+
 Motor OCR utilizado: https://github.com/tesseract-ocr/tesseract
 
 Librerias utilizadas:
-Contiene librerias `libtesseract` y `imagemagick`
+`libtesseract` y `imagemagick`
 
 ## Installing OCRBank Windows
 Descargamos la versión para nuestra computadora, ya sea de 32 o 64 bits y descargar instalador de tesseract ocr según arquitectura.
