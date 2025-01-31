@@ -25,8 +25,8 @@ La ruta en donde se instalará por defecto es:
 **Descargar idioma español**
 
 
-Por defecto, tesseract incluye únicamente el inglés. Para agregar más idiomas vamos al repositorio necesario - [`Repositorio Idiomas`](https://tesseract-ocr.github.io/tessdoc/Data-Files)
-bajar hasta encontrar el idioma que dice spa y descárgalo.
+Por defecto, tesseract incluye únicamente el inglés. Para agregar más idiomas vamos a necesitar ir a [`Repositorio Idiomas`](https://tesseract-ocr.github.io/tessdoc/Data-Files)
+y bajar hasta encontrar el idioma que dice `spa` y descárgalo.
 
 Ese archivo vamos a colocarlo en la ruta de instalación de Tesseract OCR (`C:\Program Files\Tesseract-OCR`) dentro de la carpeta /tessdata.
 puedes verificar si la instalación del idioma fue correcto ejecutando `tesseract --list-langs` en consola.
