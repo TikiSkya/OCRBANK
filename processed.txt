@@ -1,8 +1,1 @@
-[2025-01-31 04:28:22] Procesado: C:\xampp\htdocs/test_comprobantes\bbva.pdf{"bank":"bbva","transactionId":false,"amount":{"symbol":"USD","amount":"17,17"},"origen":"26058251","myAccount":"0037005100249296"}
-[2025-01-31 04:28:31] Procesado: C:\xampp\htdocs/test_comprobantes\santander.pdf{"bank":"santander","transactionId":"394357","amount":{"symbol":"USD","amount":"187,52"},"origen":false,"myAccount":"005100323798"}
-[2025-01-31 04:28:34] Procesado: C:\xampp\htdocs/test_comprobantes\itau.pdf{"bank":"Ita\u00fa","transactionId":"1197453","amount":{"symbol":"USD","amount":"68,16"},"origen":"2211824.","myAccount":"1242464."}
-[2025-01-31 04:28:38] Procesado: C:\xampp\htdocs/test_comprobantes\scotiabank.pdf{"bank":"scotiabank","transactionId":"p0O852580241010133023","amount":{"symbol":"USD","amount":"397,94"},"origen":"UYU","myAccount":"390371000"}
-[2025-01-31 04:30:07] Procesado: C:\xampp\htdocs/test_comprobantes\scotiabank.pdf{"bank":"scotiabank","transactionId":"p0O852580241010133023","amount":{"symbol":"USD","amount":"397,94"},"origen":"3775719500","myAccount":"390371000"}
-[2025-01-31 04:30:16] Procesado: C:\xampp\htdocs/test_comprobantes\santander.pdf{"bank":"santander","transactionId":"394357","amount":{"symbol":"USD","amount":"187,52"},"origen":false,"myAccount":"005100323798"}
-[2025-01-31 04:30:20] Procesado: C:\xampp\htdocs/test_comprobantes\itau.pdf{"bank":"Ita\u00fa","transactionId":"1197453","amount":{"symbol":"USD","amount":"68,16"},"origen":"2211824.","myAccount":"1242464."}
-[2025-01-31 04:30:23] Procesado: C:\xampp\htdocs/test_comprobantes\bbva.pdf{"bank":"bbva","transactionId":false,"amount":{"symbol":"USD","amount":"17,17"},"origen":"26058251","myAccount":"0037005100249296"}
+
