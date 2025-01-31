@@ -27,7 +27,7 @@ Por defecto, tesseract incluye únicamente el inglés. Para agregar más idiomas
 bajar hasta encontrar el idioma que dice spa y descárgalo.
 
 Ese archivo vamos a colocarlo en la ruta de instalación de Tesseract OCR (C:\Program Files\Tesseract-OCR) dentro de la carpeta /tessdata.
-puedes verificar si la instalación del idioma fue correcto ejecutando ´tesseract --list-langs´ en consola.
+puedes verificar si la instalación del idioma fue correcto ejecutando `tesseract --list-langs` en consola.
 
 **OPCIONAL: libreria imagemagick**
 
