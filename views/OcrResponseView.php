@@ -18,7 +18,7 @@ if (isset($_GET['info'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalles del Comprobante</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
 
 </head>
 <body>
@@ -40,7 +40,7 @@ if (isset($_GET['info'])) {
             ?>
         </div>
         <div class="actions">
-            <a href="index.html" class="button">Subir Otro Archivo</a>
+            <a href="../index.html" class="button">Subir Otro Archivo</a>
         </div>
     </div>
 </body>

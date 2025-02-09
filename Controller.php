@@ -9,8 +9,8 @@
  */
 
 // Dependencias
-include_once(__DIR__."\Rendimiento.php");
-require_once(__DIR__."\OCR.php");
+include_once(__DIR__."\models\Rendimiento.php");
+require_once(__DIR__."\models\OCR.php");
 
 // Dependencias
 $uploadDir = __DIR__ . '/uploads/';

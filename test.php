@@ -1,5 +1,5 @@
 <?php
-include_once(__DIR__."\Rendimiento.php");
+include_once(__DIR__."\models\Rendimiento.php");
 
 
 /*

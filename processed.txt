@@ -1,1 +1,12 @@
-
+[2025-02-09 06:38:21] Procesado: C:\xampp\htdocs\models/../test_comprobantes\banco_republica.pdf{"bank":"rep\u00dablica","transactionId":"2410250353979820","amount":{"symbol":"USD","amount":"1.072,33"},"origen":false,"myAccount":"00535351274"}
+[2025-02-09 06:38:25] Procesado: C:\xampp\htdocs\models/../test_comprobantes\scotiabank.pdf{"bank":"scotiabank","transactionId":"p0O852580241010133023","amount":{"symbol":"USD","amount":"397,94"},"origen":"374646445","myAccount":"3246464"}
+[2025-02-09 06:38:28] Procesado: C:\xampp\htdocs\models/../test_comprobantes\santander.pdf{"bank":"santander","transactionId":"394357","amount":{"symbol":"USD","amount":"187,52"},"origen":false,"myAccount":"007513634535"}
+[2025-02-09 06:38:30] Procesado: C:\xampp\htdocs\models/../test_comprobantes\itau.pdf{"bank":"ita\u00fa","transactionId":"1197453","amount":{"symbol":"USD","amount":"68,16"},"origen":"2215363","myAccount":"1235363"}
+[2025-02-09 06:38:33] Procesado: C:\xampp\htdocs\models/../test_comprobantes\bbva.pdf{"bank":"bbva","transactionId":false,"amount":{"symbol":"USD","amount":"17,17"},"origen":"26520254","myAccount":"003453632353456"}
+[2025-02-09 06:38:39] Procesado: C:\xampp\htdocs\models/../test_comprobantes\itau.pdf{"bank":"ita\u00fa","transactionId":"1197453","amount":{"symbol":"USD","amount":"68,16"},"origen":"2215363","myAccount":"1235363"}
+[2025-02-09 06:38:42] Procesado: C:\xampp\htdocs\models/../test_comprobantes\santander.pdf{"bank":"santander","transactionId":"394357","amount":{"symbol":"USD","amount":"187,52"},"origen":false,"myAccount":"007513634535"}
+[2025-02-09 06:38:46] Procesado: C:\xampp\htdocs\models/../test_comprobantes\banco_republica.pdf{"bank":"rep\u00dablica","transactionId":"2410250353979820","amount":{"symbol":"USD","amount":"1.072,33"},"origen":false,"myAccount":"00535351274"}
+[2025-02-09 06:38:49] Procesado: C:\xampp\htdocs\models/../test_comprobantes\scotiabank.pdf{"bank":"scotiabank","transactionId":"p0O852580241010133023","amount":{"symbol":"USD","amount":"397,94"},"origen":"374646445","myAccount":"3246464"}
+[2025-02-09 06:38:52] Procesado: C:\xampp\htdocs\models/../test_comprobantes\bbva.pdf{"bank":"bbva","transactionId":false,"amount":{"symbol":"USD","amount":"17,17"},"origen":"26520254","myAccount":"003453632353456"}
+[2025-02-09 06:42:08] Procesado: C:\xampp\htdocs/temp_images/page-0.png{"bank":"rep\u00dablica","transactionId":"2410250353979820","amount":{"symbol":"USD","amount":"1.072,33"},"origen":false,"myAccount":"00535351274"}
+[2025-02-09 06:42:38] Procesado: C:\xampp\htdocs/temp_images/page-0.png{"bank":"ita\u00fa","transactionId":"1197453","amount":{"symbol":"USD","amount":"68,16"},"origen":"2215363","myAccount":"1235363"}
